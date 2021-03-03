@@ -80,6 +80,26 @@
       </tags>
   </entry>
   <entry>
+    <title>5. Hexo博客NexT主题开启站内搜索</title>
+    <url>/2021/03/03/5.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/</url>
+    <content><![CDATA[<h2 id="NexT-主题配置-Local-Search-开启站内搜索"><a href="#NexT-主题配置-Local-Search-开启站内搜索" class="headerlink" title="NexT 主题配置 Local Search 开启站内搜索"></a>NexT 主题配置 Local Search 开启站内搜索</h2><h3 id="安装-hexo-generator-search"><a href="#安装-hexo-generator-search" class="headerlink" title="安装 hexo-generator-search"></a>安装 hexo-generator-search</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h3 id="安装-hexo-generator-searchdb"><a href="#安装-hexo-generator-searchdb" class="headerlink" title="安装 hexo-generator-searchdb"></a>安装 hexo-generator-searchdb</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="Hexo-博客根目录-config-yml-添加如下内容启用搜索"><a href="#Hexo-博客根目录-config-yml-添加如下内容启用搜索" class="headerlink" title="Hexo 博客根目录_config.yml 添加如下内容启用搜索"></a>Hexo 博客根目录_config.yml 添加如下内容启用搜索</h3><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">    <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">    <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="修改-NexT-主题根目录下的-config-yml-文件的-local-search-节点启用搜索"><a href="#修改-NexT-主题根目录下的-config-yml-文件的-local-search-节点启用搜索" class="headerlink" title="修改 NexT 主题根目录下的_config.yml 文件的 local_search 节点启用搜索"></a>修改 NexT 主题根目录下的_config.yml 文件的 local_search 节点启用搜索</h3><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>HEXO</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>4. Hexo博客NexT主题设置RSS订阅</title>
     <url>/2021/03/03/4.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AERSS%E8%AE%A2%E9%98%85/</url>
     <content><![CDATA[<h2 id="安装-hexo-generator-feed-插件并开启-RSS-订阅"><a href="#安装-hexo-generator-feed-插件并开启-RSS-订阅" class="headerlink" title="安装 hexo-generator-feed 插件并开启 RSS 订阅"></a>安装 hexo-generator-feed 插件并开启 RSS 订阅</h2><h3 id="在项目根目录下安装-hexo-generator-feed"><a href="#在项目根目录下安装-hexo-generator-feed" class="headerlink" title="在项目根目录下安装 hexo-generator-feed"></a>在项目根目录下安装 hexo-generator-feed</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
@@ -97,26 +117,6 @@
 <li>  修改<strong>follow_me</strong>节点，开启 RSS 订阅入口</li>
 </ul>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">follow_me:</span></span><br><span class="line">    <span class="comment"># 其他社交按钮</span></span><br><span class="line">    <span class="attr">RSS:</span> <span class="string">/atom.xml</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-rss</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>HEXO</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>5. Hexo博客NexT主题开启站内搜索</title>
-    <url>/2021/03/03/5.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/</url>
-    <content><![CDATA[<h2 id="NexT-主题配置-Local-Search-开启站内搜索"><a href="#NexT-主题配置-Local-Search-开启站内搜索" class="headerlink" title="NexT 主题配置 Local Search 开启站内搜索"></a>NexT 主题配置 Local Search 开启站内搜索</h2><h3 id="安装-hexo-generator-search"><a href="#安装-hexo-generator-search" class="headerlink" title="安装 hexo-generator-search"></a>安装 hexo-generator-search</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<h3 id="安装-hexo-generator-searchdb"><a href="#安装-hexo-generator-searchdb" class="headerlink" title="安装 hexo-generator-searchdb"></a>安装 hexo-generator-searchdb</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-
-<h3 id="Hexo-博客根目录-config-yml-添加如下内容启用搜索"><a href="#Hexo-博客根目录-config-yml-添加如下内容启用搜索" class="headerlink" title="Hexo 博客根目录_config.yml 添加如下内容启用搜索"></a>Hexo 博客根目录_config.yml 添加如下内容启用搜索</h3><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">    <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">    <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="修改-NexT-主题根目录下的-config-yml-文件的-local-search-节点启用搜索"><a href="#修改-NexT-主题根目录下的-config-yml-文件的-local-search-节点启用搜索" class="headerlink" title="修改 NexT 主题根目录下的_config.yml 文件的 local_search 节点启用搜索"></a>修改 NexT 主题根目录下的_config.yml 文件的 local_search 节点启用搜索</h3><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>HEXO</category>
@@ -199,6 +199,18 @@
       </tags>
   </entry>
   <entry>
+    <title>第一篇Post</title>
+    <url>/2021/03/03/%E7%AC%AC%E4%B8%80%E7%AF%87Post/</url>
+    <content><![CDATA[<p>🎉欢迎来到我的博客网站🎉</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>废话</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Razor组件加载完毕如何执行回调</title>
     <url>/2021/03/03/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</url>
     <content><![CDATA[<h2 id="Razor-组件加载完毕如何执行回调？"><a href="#Razor-组件加载完毕如何执行回调？" class="headerlink" title="Razor 组件加载完毕如何执行回调？"></a>Razor 组件加载完毕如何执行回调？</h2><blockquote>
@@ -218,18 +230,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>Blazor</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一篇Post</title>
-    <url>/2021/03/03/%E7%AC%AC%E4%B8%80%E7%AF%87Post/</url>
-    <content><![CDATA[<p>🎉欢迎来到我的博客网站🎉</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>废话</tag>
       </tags>
   </entry>
   <entry>
