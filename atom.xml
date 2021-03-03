@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ten&#39;s Blog</title>
+  <icon>https://tanwucheng.github.io/images/favicon_200x200.png</icon>
+  <subtitle>.NET Developer</subtitle>
+  <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://tanwucheng.github.io/"/>
+  <updated>2021-03-03T13:18:34.653Z</updated>
+  <id>https://tanwucheng.github.io/</id>
+  
+  <author>
+    <name>Ten</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo博客NexT主题一些常用客制化修改</title>
+    <link href="https://tanwucheng.github.io/2021/03/03/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%88%B6%E5%8C%96%E4%BF%AE%E6%94%B9/"/>
+    <id>https://tanwucheng.github.io/2021/03/03/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%88%B6%E5%8C%96%E4%BF%AE%E6%94%B9/</id>
+    <published>2021-03-03T08:58:45.000Z</published>
+    <updated>2021-03-03T13:18:34.653Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;  修改文章内链接文本样式、&lt;/li&gt;
+&lt;li&gt;  修改底部标签样式&lt;/li&gt;
+&lt;li&gt;  主页文章添加阴影效果&lt;/li&gt;
+&lt;li&gt;  显示文章结束标记&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参照&lt;a href=&quot;https://www.jianshu.com/p/9f0e90cc32c2&quot;&gt;简书&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;修改文章内链接文本样式&quot;&gt;&lt;a href=&quot;#修改文章内链接文本样式&quot; class=&quot;headerlink&quot; title=&quot;修改文章内链接文本样式&quot;&gt;&lt;/a&gt;修改文章内链接文本样式&lt;/h3&gt;&lt;p&gt;修改&lt;strong&gt;themes/next/source/css/_common/components/post/post.styl&lt;/strong&gt;，在末尾添加如下 css 样式&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="HEXO" scheme="https://tanwucheng.github.io/categories/HEXO/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客NexT主题开启站内搜索</title>
+    <link href="https://tanwucheng.github.io/2021/03/03/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/"/>
+    <id>https://tanwucheng.github.io/2021/03/03/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/</id>
+    <published>2021-03-03T08:45:44.000Z</published>
+    <updated>2021-03-03T13:02:44.198Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;NexT-主题配置-Local-Search-开启站内搜索&quot;&gt;&lt;a href=&quot;#NexT-主题配置-Local-Search-开启站内搜索&quot; class=&quot;headerlink&quot; title=&quot;NexT 主题配置 Local Search 开启站内搜索&quot;&gt;&lt;/a&gt;NexT 主题配置 Local Search 开启站内搜索&lt;/h2&gt;&lt;h3 id=&quot;安装-hexo-generator-search&quot;&gt;&lt;a href=&quot;#安装-hexo-generator-search&quot; class=&quot;headerlink&quot; title=&quot;安装 hexo-generator-search&quot;&gt;&lt;/a&gt;安装 hexo-generator-search&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install hexo-generator-search --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="HEXO" scheme="https://tanwucheng.github.io/categories/HEXO/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客NexT主题设置RSS订阅</title>
+    <link href="https://tanwucheng.github.io/2021/03/03/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AERSS%E8%AE%A2%E9%98%85/"/>
+    <id>https://tanwucheng.github.io/2021/03/03/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AERSS%E8%AE%A2%E9%98%85/</id>
+    <published>2021-03-03T02:26:25.000Z</published>
+    <updated>2021-03-03T13:02:44.198Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;安装-hexo-generator-feed-插件并开启-RSS-订阅&quot;&gt;&lt;a href=&quot;#安装-hexo-generator-feed-插件并开启-RSS-订阅&quot; class=&quot;headerlink&quot; title=&quot;安装 hexo-generator-feed 插件并开启 RSS 订阅&quot;&gt;&lt;/a&gt;安装 hexo-generator-feed 插件并开启 RSS 订阅&lt;/h2&gt;&lt;h3 id=&quot;在项目根目录下安装-hexo-generator-feed&quot;&gt;&lt;a href=&quot;#在项目根目录下安装-hexo-generator-feed&quot; class=&quot;headerlink&quot; title=&quot;在项目根目录下安装 hexo-generator-feed&quot;&gt;&lt;/a&gt;在项目根目录下安装 hexo-generator-feed&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install hexo-generator-feed --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="HEXO" scheme="https://tanwucheng.github.io/categories/HEXO/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Gulp压缩发布的文件</title>
+    <link href="https://tanwucheng.github.io/2021/03/02/%E4%BD%BF%E7%94%A8Gulp%E5%8E%8B%E7%BC%A9%E5%8F%91%E5%B8%83%E7%9A%84%E6%96%87%E4%BB%B6/"/>
+    <id>https://tanwucheng.github.io/2021/03/02/%E4%BD%BF%E7%94%A8Gulp%E5%8E%8B%E7%BC%A9%E5%8F%91%E5%B8%83%E7%9A%84%E6%96%87%E4%BB%B6/</id>
+    <published>2021-03-02T15:30:26.000Z</published>
+    <updated>2021-03-03T13:02:44.200Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;安装-Gulp-各个压缩模块并编写任务执行文件压缩&quot;&gt;&lt;a href=&quot;#安装-Gulp-各个压缩模块并编写任务执行文件压缩&quot; class=&quot;headerlink&quot; title=&quot;安装 Gulp 各个压缩模块并编写任务执行文件压缩&quot;&gt;&lt;/a&gt;安装 Gulp 各个压缩模块并编写任务执行文件压缩&lt;/h2&gt;&lt;h3 id=&quot;安装-Gulp-和各个压缩模块&quot;&gt;&lt;a href=&quot;#安装-Gulp-和各个压缩模块&quot; class=&quot;headerlink&quot; title=&quot;安装 Gulp 和各个压缩模块&quot;&gt;&lt;/a&gt;安装 Gulp 和各个压缩模块&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install gulp -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="HEXO" scheme="https://tanwucheng.github.io/categories/HEXO/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Gulp" scheme="https://tanwucheng.github.io/tags/Gulp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客添加PWA支持</title>
+    <link href="https://tanwucheng.github.io/2021/03/02/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0PWA%E6%94%AF%E6%8C%81/"/>
+    <id>https://tanwucheng.github.io/2021/03/02/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0PWA%E6%94%AF%E6%8C%81/</id>
+    <published>2021-03-02T08:53:28.000Z</published>
+    <updated>2021-03-03T13:02:44.199Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面&quot;&gt;&lt;a href=&quot;#此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面&quot; class=&quot;headerlink&quot; title=&quot;此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面&quot;&gt;&lt;/a&gt;此示例不借助&lt;a href=&quot;https://github.com/zoumiaojiang/hexo-service-worker&quot;&gt;hexo-service-worker&lt;/a&gt;、&lt;a href=&quot;https://github.com/JLHwung/hexo-offline&quot;&gt;hexo-offline&lt;/a&gt;和&lt;a href=&quot;https://github.com/lavas-project/hexo-pwa&quot;&gt;hexo-pwa&lt;/a&gt;等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面&lt;/h2&gt;&lt;h3 id=&quot;编写-manifest-json&quot;&gt;&lt;a href=&quot;#编写-manifest-json&quot; class=&quot;headerlink&quot; title=&quot;编写 manifest.json&quot;&gt;&lt;/a&gt;编写 manifest.json&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Web App Manifest&lt;/strong&gt;说明文档参考&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/Manifest&quot;&gt;MDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;manifest.json&lt;/strong&gt;简易生成器&lt;a href=&quot;https://app-manifest.firebaseapp.com/&quot;&gt;Web App Manifest Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果不使用主题，把生成的&lt;strong&gt;manifest.json&lt;/strong&gt;放置在项目&lt;strong&gt;source&lt;/strong&gt;文件夹根目录，&lt;strong&gt;hexo&lt;/strong&gt;发布时会放置在发布文件夹根目录(跟&lt;strong&gt;index.html&lt;/strong&gt;同一级目录)&lt;/li&gt;
+&lt;li&gt;如果使用主题，比如&lt;strong&gt;NexT&lt;/strong&gt;主题放在./themes/next，则把&lt;strong&gt;manifest.json&lt;/strong&gt;放置在./themes/next/source/目录下&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="HEXO" scheme="https://tanwucheng.github.io/categories/HEXO/"/>
+    
+    <category term="PWA" scheme="https://tanwucheng.github.io/categories/HEXO/PWA/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Razor组件加载完毕如何执行回调</title>
+    <link href="https://tanwucheng.github.io/2021/03/01/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/"/>
+    <id>https://tanwucheng.github.io/2021/03/01/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</id>
+    <published>2021-03-01T09:13:09.000Z</published>
+    <updated>2021-03-03T13:02:44.199Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Razor-组件加载完毕如何执行回调？&quot;&gt;&lt;a href=&quot;#Razor-组件加载完毕如何执行回调？&quot; class=&quot;headerlink&quot; title=&quot;Razor 组件加载完毕如何执行回调？&quot;&gt;&lt;/a&gt;Razor 组件加载完毕如何执行回调？&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考&lt;a href=&quot;https://stackoverflow.com/questions/61551404/in-blazor-how-to-call-a-function-at-page-load-event-name&quot; target=&quot;_blank&quot;&gt;StackOverflow&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term=".NET" scheme="https://tanwucheng.github.io/categories/NET/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Blazor" scheme="https://tanwucheng.github.io/tags/Blazor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论语十则</title>
+    <link href="https://tanwucheng.github.io/2021/03/01/%E8%AE%BA%E8%AF%AD%E5%8D%81%E5%88%99/"/>
+    <id>https://tanwucheng.github.io/2021/03/01/%E8%AE%BA%E8%AF%AD%E5%8D%81%E5%88%99/</id>
+    <published>2021-03-01T09:01:29.000Z</published>
+    <updated>2021-03-03T13:02:44.201Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;论语十则及其翻译&lt;/p&gt;
+&lt;h2 id=&quot;《论语十则》&quot;&gt;&lt;a href=&quot;#《论语十则》&quot; class=&quot;headerlink&quot; title=&quot;《论语十则》&quot;&gt;&lt;/a&gt;《论语十则》&lt;/h2&gt;&lt;h3 id=&quot;作者：孔子及其弟子&quot;&gt;&lt;a href=&quot;#作者：孔子及其弟子&quot; class=&quot;headerlink&quot; title=&quot;作者：孔子及其弟子&quot;&gt;&lt;/a&gt;作者：孔子及其弟子&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;子曰：“&lt;strong&gt;学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？&lt;/strong&gt;”（《学而》）&lt;/p&gt;
+&lt;p&gt; 翻译：孔子说：“学习知识并且按时温习它，不也是令人高兴的事吗？有朋友从远方来（交流、学习），不也是令人快乐的事吗？别人不了解自己也不怨恨，不正是品德高尚的人吗？”&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="杂谈" scheme="https://tanwucheng.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="谚语" scheme="https://tanwucheng.github.io/tags/%E8%B0%9A%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇Post</title>
+    <link href="https://tanwucheng.github.io/2021/03/01/%E7%AC%AC%E4%B8%80%E7%AF%87Post/"/>
+    <id>https://tanwucheng.github.io/2021/03/01/%E7%AC%AC%E4%B8%80%E7%AF%87Post/</id>
+    <published>2021-03-01T06:20:18.000Z</published>
+    <updated>2021-03-03T13:02:44.200Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;🎉欢迎来到我的博客网站🎉&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://tanwucheng.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="废话" scheme="https://tanwucheng.github.io/tags/%E5%BA%9F%E8%AF%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo官方简易教程</title>
+    <link href="https://tanwucheng.github.io/2021/02/01/Hexo%E5%AE%98%E6%96%B9%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B/"/>
+    <id>https://tanwucheng.github.io/2021/02/01/Hexo%E5%AE%98%E6%96%B9%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B/</id>
+    <published>2021-02-01T06:20:18.000Z</published>
+    <updated>2021-03-02T13:43:41.836Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="HEXO" scheme="https://tanwucheng.github.io/categories/HEXO/"/>
+    
+    
+    <category term="教程" scheme="https://tanwucheng.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>
