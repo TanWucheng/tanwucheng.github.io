@@ -161,3 +161,98 @@ const BrowserType = () => {
         }
   );
 };
+
+/**
+ * 获取当前日期的中国农历二十四节气
+ */
+const getNowSolarTerm = () => {
+  let dateNow = new Date();
+  const solarTermStr = new Array(
+    "小寒",
+    "大寒",
+    "立春",
+    "雨水",
+    "惊蛰",
+    "春分",
+    "清明",
+    "谷雨",
+    "立夏",
+    "小满",
+    "芒种",
+    "夏至",
+    "小暑",
+    "大暑",
+    "立秋",
+    "处暑",
+    "白露",
+    "秋分",
+    "寒露",
+    "霜降",
+    "立冬",
+    "小雪",
+    "大雪",
+    "冬至"
+  );
+  const DifferenceInMonth = new Array(
+    1272060,
+    1275495,
+    1281180,
+    1289445,
+    1299225,
+    1310355,
+    1321560,
+    1333035,
+    1342770,
+    1350855,
+    1356420,
+    1359045,
+    1358580,
+    1355055,
+    1348695,
+    1340040,
+    1329630,
+    1318455,
+    1306935,
+    1297380,
+    1286865,
+    1277730,
+    1274550,
+    1271556
+  );
+  const differenceInYear = 31556926;
+  const beginTime = new Date(1901 / 1 / 1);
+  beginTime.setTime(947120460000);
+  for (; dateNow.getFullYear() < beginTime.getFullYear(); ) {
+    beginTime.setTime(beginTime.getTime() - differenceInYear * 1000);
+  }
+  for (; dateNow.getFullYear() > beginTime.getFullYear(); ) {
+    beginTime.setTime(beginTime.getTime() + differenceInYear * 1000);
+  }
+  let M = -1;
+  for (M = 0; dateNow.getMonth() > beginTime.getMonth(); M++) {
+    beginTime.setTime(beginTime.getTime() + DifferenceInMonth[M] * 1000);
+  }
+  if (dateNow.getDate() > beginTime.getDate()) {
+    beginTime.setTime(beginTime.getTime() + DifferenceInMonth[M] * 1000);
+    M++;
+  }
+  if (dateNow.getDate() > beginTime.getDate()) {
+    beginTime.setTime(beginTime.getTime() + DifferenceInMonth[M] * 1000);
+    M == 23 ? (M = 0) : M++;
+  }
+  let dayStr = "";
+  if (dateNow.getDate() === beginTime.getDate()) {
+    dayStr = "今天";
+  } else if (dateNow.getDate() === beginTime.getDate() - 1) {
+    dayStr = "明天";
+  } else if (dateNow.getDate() === beginTime.getDate() - 2) {
+    dayStr = "后天";
+  } else {
+    if (dateNow.getMonth() === beginTime.getMonth()) {
+      dayStr = `本月${beginTime.getDate()}日`;
+    } else {
+      dayStr = `下月${beginTime.getDate()}日`;
+    }
+  }
+  return { date: dayStr, solarTerm: solarTermStr[M] };
+};
