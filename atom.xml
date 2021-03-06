@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-03-03T15:49:04.799Z</updated>
+  <updated>2021-03-06T16:37:36.269Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安卓Ten&#39;s Blog客户端开发</title>
+    <link href="https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <id>https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/</id>
+    <published>2021-03-06T16:14:51.000Z</published>
+    <updated>2021-03-06T16:37:36.269Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一些-UI-问题解决方法&quot;&gt;&lt;a href=&quot;#一些-UI-问题解决方法&quot; class=&quot;headerlink&quot; title=&quot;一些 UI 问题解决方法&quot;&gt;&lt;/a&gt;一些 UI 问题解决方法&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term=".NET" scheme="https://tanwucheng.github.io/categories/NET/"/>
+    
+    <category term="Xamarin Android" scheme="https://tanwucheng.github.io/categories/NET/Xamarin-Android/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Razor组件加载完毕如何执行回调</title>
