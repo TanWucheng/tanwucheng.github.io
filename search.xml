@@ -127,28 +127,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Razor组件加载完毕如何执行回调</title>
-    <url>/2021/03/03/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</url>
-    <content><![CDATA[<h2 id="Razor-组件加载完毕如何执行回调？"><a href="#Razor-组件加载完毕如何执行回调？" class="headerlink" title="Razor 组件加载完毕如何执行回调？"></a>Razor 组件加载完毕如何执行回调？</h2><blockquote>
-<p>参考<a href="https://stackoverflow.com/questions/61551404/in-blazor-how-to-call-a-function-at-page-load-event-name" target="_blank">StackOverflow</a></p>
-</blockquote>
-<span id="more"></span>
-
-<p><strong><em>1.重写 Razor 组件的 OnInitializedAsync()方法</em></strong></p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code &#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">SomeStartupMethod</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do Some Work</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Task <span class="title">SomeStartupTask</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do some task based work</span></span><br><span class="line">        <span class="keyword">return</span> Task.CompletedTask;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">async</span> Task <span class="title">OnInitializedAsync</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SomeStartupMethod();</span><br><span class="line">        <span class="keyword">await</span> SomeStartupTask();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong><em>2.重写 Razor 组件的 OnAfterRender()方法</em></strong></p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code&#123;</span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnAfterRender</span>(<span class="params"><span class="built_in">bool</span> firstRender</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// execute conditionally for loading data, otherwise this will load</span></span><br><span class="line">        <span class="comment">// every time the page refreshes</span></span><br><span class="line">        <span class="keyword">if</span>(firstRender)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Do work to load page data and set properties</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>.NET</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Blazor</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>6. Hexo博客NexT主题一些常用客制化修改</title>
     <url>/2021/03/03/6.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%88%B6%E5%8C%96%E4%BF%AE%E6%94%B9/</url>
     <content><![CDATA[<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
@@ -243,6 +221,28 @@
       </categories>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Razor组件加载完毕如何执行回调</title>
+    <url>/2021/03/03/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</url>
+    <content><![CDATA[<h2 id="Razor-组件加载完毕如何执行回调？"><a href="#Razor-组件加载完毕如何执行回调？" class="headerlink" title="Razor 组件加载完毕如何执行回调？"></a>Razor 组件加载完毕如何执行回调？</h2><blockquote>
+<p>参考<a href="https://stackoverflow.com/questions/61551404/in-blazor-how-to-call-a-function-at-page-load-event-name" target="_blank">StackOverflow</a></p>
+</blockquote>
+<span id="more"></span>
+
+<p><strong><em>1.重写 Razor 组件的 OnInitializedAsync()方法</em></strong></p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code &#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">SomeStartupMethod</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do Some Work</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Task <span class="title">SomeStartupTask</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do some task based work</span></span><br><span class="line">        <span class="keyword">return</span> Task.CompletedTask;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">async</span> Task <span class="title">OnInitializedAsync</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SomeStartupMethod();</span><br><span class="line">        <span class="keyword">await</span> SomeStartupTask();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong><em>2.重写 Razor 组件的 OnAfterRender()方法</em></strong></p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code&#123;</span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnAfterRender</span>(<span class="params"><span class="built_in">bool</span> firstRender</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// execute conditionally for loading data, otherwise this will load</span></span><br><span class="line">        <span class="comment">// every time the page refreshes</span></span><br><span class="line">        <span class="keyword">if</span>(firstRender)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Do work to load page data and set properties</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>.NET</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Blazor</tag>
       </tags>
   </entry>
   <entry>
