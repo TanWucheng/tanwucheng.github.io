@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1. Hexo官方开箱即用教程</title>
+    <url>/2021/03/01/1.Hexo%E5%AE%98%E6%96%B9%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>HEXO</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2. Hexo博客添加PWA支持</title>
     <url>/2021/03/02/2.Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0PWA%E6%94%AF%E6%8C%81/</url>
     <content><![CDATA[<h2 id="此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面"><a href="#此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面" class="headerlink" title="此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面"></a>此示例不借助<a href="https://github.com/zoumiaojiang/hexo-service-worker">hexo-service-worker</a>、<a href="https://github.com/JLHwung/hexo-offline">hexo-offline</a>和<a href="https://github.com/lavas-project/hexo-pwa">hexo-pwa</a>等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面</h2><p>如果使用上述插件，可以参考<a href="https://linwhitehat.github.io/Blog/2020/02/09/Hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2PWA.html">此博文</a></p>
@@ -32,32 +58,6 @@
       </categories>
       <tags>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1. Hexo官方开箱即用教程</title>
-    <url>/2021/03/01/1.Hexo%E5%AE%98%E6%96%B9%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>HEXO</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -124,6 +124,28 @@
       </categories>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Razor组件加载完毕如何执行回调</title>
+    <url>/2021/03/03/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</url>
+    <content><![CDATA[<h2 id="Razor-组件加载完毕如何执行回调？"><a href="#Razor-组件加载完毕如何执行回调？" class="headerlink" title="Razor 组件加载完毕如何执行回调？"></a>Razor 组件加载完毕如何执行回调？</h2><blockquote>
+<p>参考<a href="https://stackoverflow.com/questions/61551404/in-blazor-how-to-call-a-function-at-page-load-event-name" target="_blank">StackOverflow</a></p>
+</blockquote>
+<span id="more"></span>
+
+<p><strong><em>1.重写 Razor 组件的 OnInitializedAsync()方法</em></strong></p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code &#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">SomeStartupMethod</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do Some Work</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Task <span class="title">SomeStartupTask</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do some task based work</span></span><br><span class="line">        <span class="keyword">return</span> Task.CompletedTask;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">async</span> Task <span class="title">OnInitializedAsync</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SomeStartupMethod();</span><br><span class="line">        <span class="keyword">await</span> SomeStartupTask();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong><em>2.重写 Razor 组件的 OnAfterRender()方法</em></strong></p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code&#123;</span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnAfterRender</span>(<span class="params"><span class="built_in">bool</span> firstRender</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// execute conditionally for loading data, otherwise this will load</span></span><br><span class="line">        <span class="comment">// every time the page refreshes</span></span><br><span class="line">        <span class="keyword">if</span>(firstRender)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Do work to load page data and set properties</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>.NET</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Blazor</tag>
       </tags>
   </entry>
   <entry>
@@ -221,28 +243,6 @@
       </categories>
       <tags>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Razor组件加载完毕如何执行回调</title>
-    <url>/2021/03/03/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</url>
-    <content><![CDATA[<h2 id="Razor-组件加载完毕如何执行回调？"><a href="#Razor-组件加载完毕如何执行回调？" class="headerlink" title="Razor 组件加载完毕如何执行回调？"></a>Razor 组件加载完毕如何执行回调？</h2><blockquote>
-<p>参考<a href="https://stackoverflow.com/questions/61551404/in-blazor-how-to-call-a-function-at-page-load-event-name" target="_blank">StackOverflow</a></p>
-</blockquote>
-<span id="more"></span>
-
-<p><strong><em>1.重写 Razor 组件的 OnInitializedAsync()方法</em></strong></p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code &#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">SomeStartupMethod</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do Some Work</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Task <span class="title">SomeStartupTask</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do some task based work</span></span><br><span class="line">        <span class="keyword">return</span> Task.CompletedTask;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">async</span> Task <span class="title">OnInitializedAsync</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SomeStartupMethod();</span><br><span class="line">        <span class="keyword">await</span> SomeStartupTask();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong><em>2.重写 Razor 组件的 OnAfterRender()方法</em></strong></p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code&#123;</span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnAfterRender</span>(<span class="params"><span class="built_in">bool</span> firstRender</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// execute conditionally for loading data, otherwise this will load</span></span><br><span class="line">        <span class="comment">// every time the page refreshes</span></span><br><span class="line">        <span class="keyword">if</span>(firstRender)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Do work to load page data and set properties</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>.NET</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Blazor</tag>
       </tags>
   </entry>
   <entry>
