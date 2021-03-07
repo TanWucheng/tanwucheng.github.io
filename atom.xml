@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-03-07T08:30:56.053Z</updated>
+  <updated>2021-03-07T13:43:51.129Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     <id>https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/</id>
     <published>2021-03-06T16:14:51.000Z</published>
-    <updated>2021-03-07T08:30:56.053Z</updated>
+    <updated>2021-03-07T13:43:51.129Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;一些-UI-问题解决方法&quot;&gt;&lt;a href=&quot;#一些-UI-问题解决方法&quot; class=&quot;headerlink&quot; title=&quot;一些 UI 问题解决方法&quot;&gt;&lt;/a&gt;一些 UI 问题解决方法&lt;/h2&gt;&lt;h3</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;一些-UI-问题解决方法&quot;&gt;&lt;a href=&quot;#一些-UI-问题解决方法&quot; class=&quot;headerlink&quot; title=&quot;一些 UI 问题解决方法&quot;&gt;&lt;/a&gt;一些 UI 问题解决方法&lt;/h2&gt;&lt;h3 id=&quot;解决安卓虚拟导航栏遮挡-Activity-根视图&quot;&gt;&lt;a href=&quot;#解决安卓虚拟导航栏遮挡-Activity-根视图&quot; class=&quot;headerlink&quot; title=&quot;解决安卓虚拟导航栏遮挡 Activity 根视图&quot;&gt;&lt;/a&gt;解决安卓虚拟导航栏遮挡 Activity 根视图&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Activity 布局根节点设置&lt;strong&gt;fitsSystemWindows&lt;/strong&gt;=&lt;strong&gt;true&lt;/strong&gt;，这个加在哪个布局，该布局就会相应的向上（配置 A）或者向下（配置 B）或者向上下（同时配置 AB）扩展&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;RelativeLayout&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;xmlns:android&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;http://schemas.android.com/apk/res/android&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;xmlns:app&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;http://schemas.android.com/apk/res-auto&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;xmlns:tools&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;http://schemas.android.com/tools&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;android:id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;@+id/root_layout&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;android:layout_width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;match_parent&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;android:layout_height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;match_parent&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;android:fitsSystemWindows&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;android:background&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;@color/colorPrimary&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;&amp;lt;!--Content--&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;RelativeLayout&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     

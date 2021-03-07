@@ -127,6 +127,28 @@
       </tags>
   </entry>
   <entry>
+    <title>Razor组件加载完毕如何执行回调</title>
+    <url>/2021/03/03/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</url>
+    <content><![CDATA[<h2 id="Razor-组件加载完毕如何执行回调？"><a href="#Razor-组件加载完毕如何执行回调？" class="headerlink" title="Razor 组件加载完毕如何执行回调？"></a>Razor 组件加载完毕如何执行回调？</h2><blockquote>
+<p>参考<a href="https://stackoverflow.com/questions/61551404/in-blazor-how-to-call-a-function-at-page-load-event-name" target="_blank">StackOverflow</a></p>
+</blockquote>
+<span id="more"></span>
+
+<p><strong><em>1.重写 Razor 组件的 OnInitializedAsync()方法</em></strong></p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code &#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">SomeStartupMethod</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do Some Work</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Task <span class="title">SomeStartupTask</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do some task based work</span></span><br><span class="line">        <span class="keyword">return</span> Task.CompletedTask;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">async</span> Task <span class="title">OnInitializedAsync</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SomeStartupMethod();</span><br><span class="line">        <span class="keyword">await</span> SomeStartupTask();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong><em>2.重写 Razor 组件的 OnAfterRender()方法</em></strong></p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code&#123;</span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnAfterRender</span>(<span class="params"><span class="built_in">bool</span> firstRender</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// execute conditionally for loading data, otherwise this will load</span></span><br><span class="line">        <span class="comment">// every time the page refreshes</span></span><br><span class="line">        <span class="keyword">if</span>(firstRender)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Do work to load page data and set properties</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>.NET</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Blazor</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>6. Hexo博客NexT主题一些常用客制化修改</title>
     <url>/2021/03/03/6.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%88%B6%E5%8C%96%E4%BF%AE%E6%94%B9/</url>
     <content><![CDATA[<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
@@ -224,34 +246,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Razor组件加载完毕如何执行回调</title>
-    <url>/2021/03/03/Razor%E7%BB%84%E4%BB%B6%E5%8A%A0%E8%BD%BD%E5%AE%8C%E6%AF%95%E5%A6%82%E4%BD%95%E6%89%A7%E8%A1%8C%E5%9B%9E%E8%B0%83/</url>
-    <content><![CDATA[<h2 id="Razor-组件加载完毕如何执行回调？"><a href="#Razor-组件加载完毕如何执行回调？" class="headerlink" title="Razor 组件加载完毕如何执行回调？"></a>Razor 组件加载完毕如何执行回调？</h2><blockquote>
-<p>参考<a href="https://stackoverflow.com/questions/61551404/in-blazor-how-to-call-a-function-at-page-load-event-name" target="_blank">StackOverflow</a></p>
-</blockquote>
-<span id="more"></span>
-
-<p><strong><em>1.重写 Razor 组件的 OnInitializedAsync()方法</em></strong></p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code &#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">SomeStartupMethod</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do Some Work</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Task <span class="title">SomeStartupTask</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// Do some task based work</span></span><br><span class="line">        <span class="keyword">return</span> Task.CompletedTask;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">async</span> Task <span class="title">OnInitializedAsync</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SomeStartupMethod();</span><br><span class="line">        <span class="keyword">await</span> SomeStartupTask();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong><em>2.重写 Razor 组件的 OnAfterRender()方法</em></strong></p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">@code&#123;</span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnAfterRender</span>(<span class="params"><span class="built_in">bool</span> firstRender</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="comment">// execute conditionally for loading data, otherwise this will load</span></span><br><span class="line">        <span class="comment">// every time the page refreshes</span></span><br><span class="line">        <span class="keyword">if</span>(firstRender)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Do work to load page data and set properties</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>.NET</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Blazor</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>安卓Ten&#39;s Blog客户端开发</title>
     <url>/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/</url>
     <content><![CDATA[<h2 id="一些-UI-问题解决方法"><a href="#一些-UI-问题解决方法" class="headerlink" title="一些 UI 问题解决方法"></a>一些 UI 问题解决方法</h2><h3 id="解决安卓虚拟导航栏遮挡-Activity-根视图"><a href="#解决安卓虚拟导航栏遮挡-Activity-根视图" class="headerlink" title="解决安卓虚拟导航栏遮挡 Activity 根视图"></a>解决安卓虚拟导航栏遮挡 Activity 根视图</h3><ol>
 <li>Activity 布局根节点设置<strong>fitsSystemWindows</strong>=<strong>true</strong>，这个加在哪个布局，该布局就会相应的向上（配置 A）或者向下（配置 B）或者向上下（同时配置 AB）扩展</li>
 </ol>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">RelativeLayout</span> <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:tools</span>=<span class="string">&quot;http://schemas.android.com/tools&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:id</span>=<span class="string">&quot;@+id/root_layout&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:fitsSystemWindows</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:background</span>=<span class="string">&quot;@color/colorPrimary&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--Content--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">RelativeLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
 
 <ol start="2">
 <li>Activity 代码设定状态栏和导航栏以扩展形式而非堆叠形式占据界面</li>
@@ -263,8 +265,8 @@
 <figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnCreate</span>(<span class="params">Bundle savedInstanceState</span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    SetContentView(Resource.Layout.activity_main);</span><br><span class="line">    <span class="comment">// 状态栏 @ 顶部</span></span><br><span class="line">    Window.AddFlags(WindowManagerFlags.TranslucentStatus);</span><br><span class="line">    <span class="comment">// 导航栏 @ 底部</span></span><br><span class="line">    Window.AddFlags(WindowManagerFlags.TranslucentNavigation);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="CoordinatorLayout-布局里-FloatingActionButton-和-Snackbar-联动位置自动调整"><a href="#CoordinatorLayout-布局里-FloatingActionButton-和-Snackbar-联动位置自动调整" class="headerlink" title="CoordinatorLayout 布局里 FloatingActionButton 和 Snackbar 联动位置自动调整"></a>CoordinatorLayout 布局里 FloatingActionButton 和 Snackbar 联动位置自动调整</h3><ul>
-<li>CoordinatorLayout各种与其他Widget联动使用教程参照<a href="https://www.jianshu.com/p/4a77ae4cd82f">简书</a></li>
-<li>Snackbar官方API文档请查阅<a href="https://developer.android.google.cn/reference/com/google/android/material/snackbar/Snackbar?hl=zh-cn">Google Developer</a></li>
+<li>  CoordinatorLayout 各种与其他 Widget 联动使用教程参照<a href="https://www.jianshu.com/p/4a77ae4cd82f">简书</a></li>
+<li>  Snackbar 官方 API 文档请查阅<a href="https://developer.android.google.cn/reference/com/google/android/material/snackbar/Snackbar?hl=zh-cn">Google Developer</a></li>
 </ul>
 <p>简单布局</p>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span></span><br><span class="line">&lt;androidx.coordinatorlayout.widget.CoordinatorLayout</span><br><span class="line">	xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</span><br><span class="line">	xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;</span><br><span class="line">	xmlns:tools=&quot;http://schemas.android.com/tools&quot;</span><br><span class="line">	android:layout_width=&quot;match_parent&quot;</span><br><span class="line">	android:layout_height=&quot;match_parent&quot;</span><br><span class="line">	android:background=&quot;@color/colorWhite&quot;</span><br><span class="line">	tools:showIn=&quot;@layout/activity_main&quot;</span><br><span class="line">	tools:context=&quot;TenBlogDroidApp.MainActivity&quot;&gt;</span><br><span class="line"></span><br><span class="line">	&lt;com.google.android.material.appbar.AppBarLayout</span><br><span class="line">		android:layout_width=&quot;match_parent&quot;</span><br><span class="line">		android:layout_height=&quot;wrap_content&quot;</span><br><span class="line">		android:theme=&quot;@style/AppTheme.AppBarOverlay&quot;&gt;</span><br><span class="line"></span><br><span class="line">		&lt;androidx.appcompat.widget.Toolbar</span><br><span class="line">			android:id=&quot;@+id/toolbar&quot;</span><br><span class="line">			android:layout_width=&quot;match_parent&quot;</span><br><span class="line">			android:layout_height=&quot;?attr/actionBarSize&quot;</span><br><span class="line">			android:background=&quot;?attr/colorPrimary&quot;</span><br><span class="line">			app:popupTheme=&quot;@style/AppTheme.PopupOverlay&quot; /&gt;</span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;/<span class="name">com.google.android.material.appbar.AppBarLayout</span>&gt;</span></span><br><span class="line"></span><br><span class="line">	&lt;include</span><br><span class="line">		layout=&quot;@layout/content_default&quot; /&gt;</span><br><span class="line"></span><br><span class="line">	&lt;com.google.android.material.floatingactionbutton.FloatingActionButton</span><br><span class="line">		android:id=&quot;@+id/fab&quot;</span><br><span class="line">		android:layout_width=&quot;wrap_content&quot;</span><br><span class="line">		android:layout_height=&quot;wrap_content&quot;</span><br><span class="line">		android:layout_gravity=&quot;bottom|end&quot;</span><br><span class="line">		android:layout_margin=&quot;@dimen/fab_margin&quot;</span><br><span class="line">		android:scaleType=&quot;center&quot;</span><br><span class="line">		app:elevation=&quot;@dimen/dp_10&quot;</span><br><span class="line">		app:srcCompat=&quot;@android:drawable/ic_dialog_email&quot; /&gt;</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
