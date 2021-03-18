@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-03-18T13:38:37.236Z</updated>
+  <updated>2021-03-18T14:01:47.578Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://tanwucheng.github.io/2021/03/18/Android-11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/"/>
     <id>https://tanwucheng.github.io/2021/03/18/Android-11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/</id>
     <published>2021-03-18T13:20:23.000Z</published>
-    <updated>2021-03-18T13:38:37.236Z</updated>
+    <updated>2021-03-18T14:01:47.578Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Android-11-中的软件包可见性&quot;&gt;&lt;a href=&quot;#Android-11-中的软件包可见性&quot; class=&quot;headerlink&quot; title=&quot;Android 11 中的软件包可见性&quot;&gt;&lt;/a&gt;Android 11</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;Android-11-中的软件包可见性&quot;&gt;&lt;a href=&quot;#Android-11-中的软件包可见性&quot; class=&quot;headerlink&quot; title=&quot;Android 11 中的软件包可见性&quot;&gt;&lt;/a&gt;Android 11 中的软件包可见性&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Android 11 中权限的变更参见谷歌官方的两边文章: &lt;a href=&quot;https://developer.android.com/about/versions/11/privacy/package-visibility?hl=zh-cn&quot;&gt;package-visibility&lt;/a&gt;和&lt;a href=&quot;https://developer.android.com/training/basics/intents/package-visibility?hl=zh-cn&quot;&gt;查询特定软件包&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;比如要查询是否安装国内一些常见 App，在&lt;strong&gt;AndroidManifest.xml&lt;/strong&gt;中添加如下内容&lt;/p&gt;</summary>
     
     
     
@@ -46,7 +43,7 @@
     <link href="https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     <id>https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/</id>
     <published>2021-03-06T16:14:51.000Z</published>
-    <updated>2021-03-07T13:43:51.129Z</updated>
+    <updated>2021-03-18T14:02:26.527Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;一些-UI-问题解决方法&quot;&gt;&lt;a href=&quot;#一些-UI-问题解决方法&quot; class=&quot;headerlink&quot; title=&quot;一些 UI 问题解决方法&quot;&gt;&lt;/a&gt;一些 UI 问题解决方法&lt;/h2&gt;&lt;h3 id=&quot;解决安卓虚拟导航栏遮挡-Activity-根视图&quot;&gt;&lt;a href=&quot;#解决安卓虚拟导航栏遮挡-Activity-根视图&quot; class=&quot;headerlink&quot; title=&quot;解决安卓虚拟导航栏遮挡 Activity 根视图&quot;&gt;&lt;/a&gt;解决安卓虚拟导航栏遮挡 Activity 根视图&lt;/h3&gt;&lt;ol&gt;
@@ -56,9 +53,7 @@
     
     
     
-    <category term=".NET" scheme="https://tanwucheng.github.io/categories/NET/"/>
-    
-    <category term="Xamarin Android" scheme="https://tanwucheng.github.io/categories/NET/Xamarin-Android/"/>
+    <category term=".Net For Android" scheme="https://tanwucheng.github.io/categories/Net-For-Android/"/>
     
     
     <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
