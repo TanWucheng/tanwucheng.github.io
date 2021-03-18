@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-03-07T13:43:51.129Z</updated>
+  <updated>2021-03-18T13:38:37.236Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 11根据包名查找是否安装第三方应用</title>
+    <link href="https://tanwucheng.github.io/2021/03/18/Android-11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/"/>
+    <id>https://tanwucheng.github.io/2021/03/18/Android-11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/</id>
+    <published>2021-03-18T13:20:23.000Z</published>
+    <updated>2021-03-18T13:38:37.236Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Android-11-中的软件包可见性&quot;&gt;&lt;a href=&quot;#Android-11-中的软件包可见性&quot; class=&quot;headerlink&quot; title=&quot;Android 11 中的软件包可见性&quot;&gt;&lt;/a&gt;Android 11</summary>
+        
+      
+    
+    
+    
+    <category term=".Net For Android" scheme="https://tanwucheng.github.io/categories/Net-For-Android/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>安卓Ten&#39;s Blog客户端开发</title>
