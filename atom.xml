@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-03-18T14:01:47.578Z</updated>
+  <updated>2021-03-24T13:23:46.224Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -17,21 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Android 11根据包名查找是否安装第三方应用</title>
-    <link href="https://tanwucheng.github.io/2021/03/18/Android-11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/"/>
-    <id>https://tanwucheng.github.io/2021/03/18/Android-11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/</id>
-    <published>2021-03-18T13:20:23.000Z</published>
-    <updated>2021-03-18T14:01:47.578Z</updated>
+    <title>本站GUI客户端开发说明</title>
+    <link href="https://tanwucheng.github.io/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/"/>
+    <id>https://tanwucheng.github.io/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/</id>
+    <published>2021-03-24T12:10:33.000Z</published>
+    <updated>2021-03-24T13:23:46.224Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Android-11-中的软件包可见性&quot;&gt;&lt;a href=&quot;#Android-11-中的软件包可见性&quot; class=&quot;headerlink&quot; title=&quot;Android 11 中的软件包可见性&quot;&gt;&lt;/a&gt;Android 11 中的软件包可见性&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;Android 11 中权限的变更参见谷歌官方的两边文章: &lt;a href=&quot;https://developer.android.com/about/versions/11/privacy/package-visibility?hl=zh-cn&quot;&gt;package-visibility&lt;/a&gt;和&lt;a href=&quot;https://developer.android.com/training/basics/intents/package-visibility?hl=zh-cn&quot;&gt;查询特定软件包&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;比如要查询是否安装国内一些常见 App，在&lt;strong&gt;AndroidManifest.xml&lt;/strong&gt;中添加如下内容&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;欢迎阅读&quot;&gt;&lt;a href=&quot;#欢迎阅读&quot; class=&quot;headerlink&quot; title=&quot;欢迎阅读&quot;&gt;&lt;/a&gt;欢迎阅读&lt;/h2&gt;&lt;p&gt;出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码仓库已上传到我的</summary>
+        
+      
     
     
     
-    <category term=".Net For Android" scheme="https://tanwucheng.github.io/categories/Net-For-Android/"/>
+    <category term="Statement" scheme="https://tanwucheng.github.io/categories/Statement/"/>
     
     
     <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
@@ -39,11 +42,33 @@
   </entry>
   
   <entry>
-    <title>安卓Ten&#39;s Blog客户端开发</title>
-    <link href="https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    <id>https://tanwucheng.github.io/2021/03/07/%E5%AE%89%E5%8D%93TenBlog%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91/</id>
+    <title>Android 11根据包名查找是否安装第三方应用</title>
+    <link href="https://tanwucheng.github.io/2021/03/18/Android11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/"/>
+    <id>https://tanwucheng.github.io/2021/03/18/Android11%E6%A0%B9%E6%8D%AE%E5%8C%85%E5%90%8D%E6%9F%A5%E6%89%BE%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8/</id>
+    <published>2021-03-18T13:20:23.000Z</published>
+    <updated>2021-03-24T12:07:00.460Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Android-11-中的软件包可见性&quot;&gt;&lt;a href=&quot;#Android-11-中的软件包可见性&quot; class=&quot;headerlink&quot; title=&quot;Android 11 中的软件包可见性&quot;&gt;&lt;/a&gt;Android 11 中的软件包可见性&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;关于Android 11 中权限的变更请阅读谷歌官方的两篇文章: &lt;a href=&quot;https://developer.android.com/about/versions/11/privacy/package-visibility?hl=zh-cn&quot;&gt;package-visibility&lt;/a&gt;和&lt;a href=&quot;https://developer.android.com/training/basics/intents/package-visibility?hl=zh-cn&quot;&gt;查询特定软件包&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;比如要查询是否安装国内一些常见 App，在&lt;strong&gt;AndroidManifest.xml&lt;/strong&gt;中添加如下内容&lt;/p&gt;</summary>
+    
+    
+    
+    <category term=".NET For Android" scheme="https://tanwucheng.github.io/categories/NET-For-Android/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ten&#39;s Blog客户端开发前言</title>
+    <link href="https://tanwucheng.github.io/2021/03/07/TenBlog%E5%AE%89%E5%8D%93%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%89%8D%E8%A8%80/"/>
+    <id>https://tanwucheng.github.io/2021/03/07/TenBlog%E5%AE%89%E5%8D%93%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%89%8D%E8%A8%80/</id>
     <published>2021-03-06T16:14:51.000Z</published>
-    <updated>2021-03-18T14:02:26.527Z</updated>
+    <updated>2021-03-24T12:06:41.313Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;一些-UI-问题解决方法&quot;&gt;&lt;a href=&quot;#一些-UI-问题解决方法&quot; class=&quot;headerlink&quot; title=&quot;一些 UI 问题解决方法&quot;&gt;&lt;/a&gt;一些 UI 问题解决方法&lt;/h2&gt;&lt;h3 id=&quot;解决安卓虚拟导航栏遮挡-Activity-根视图&quot;&gt;&lt;a href=&quot;#解决安卓虚拟导航栏遮挡-Activity-根视图&quot; class=&quot;headerlink&quot; title=&quot;解决安卓虚拟导航栏遮挡 Activity 根视图&quot;&gt;&lt;/a&gt;解决安卓虚拟导航栏遮挡 Activity 根视图&lt;/h3&gt;&lt;ol&gt;
@@ -53,7 +78,7 @@
     
     
     
-    <category term=".Net For Android" scheme="https://tanwucheng.github.io/categories/Net-For-Android/"/>
+    <category term=".NET For Android" scheme="https://tanwucheng.github.io/categories/NET-For-Android/"/>
     
     
     <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
@@ -108,37 +133,11 @@
   </entry>
   
   <entry>
-    <title>第一篇Post</title>
-    <link href="https://tanwucheng.github.io/2021/03/03/%E7%AC%AC%E4%B8%80%E7%AF%87Post/"/>
-    <id>https://tanwucheng.github.io/2021/03/03/%E7%AC%AC%E4%B8%80%E7%AF%87Post/</id>
-    <published>2021-03-03T15:47:18.000Z</published>
-    <updated>2021-03-03T15:47:25.448Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;🎉欢迎来到我的博客网站🎉&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="杂谈" scheme="https://tanwucheng.github.io/categories/%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="废话" scheme="https://tanwucheng.github.io/tags/%E5%BA%9F%E8%AF%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>6. Hexo博客NexT主题一些常用客制化修改</title>
+    <title>HEXO笔记1-Hexo博客NexT主题一些常用客制化修改</title>
     <link href="https://tanwucheng.github.io/2021/03/03/6.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%88%B6%E5%8C%96%E4%BF%AE%E6%94%B9/"/>
     <id>https://tanwucheng.github.io/2021/03/03/6.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%88%B6%E5%8C%96%E4%BF%AE%E6%94%B9/</id>
     <published>2021-03-03T08:58:45.000Z</published>
-    <updated>2021-03-04T13:23:13.440Z</updated>
+    <updated>2021-03-24T12:08:29.020Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;ul&gt;
@@ -168,11 +167,11 @@
   </entry>
   
   <entry>
-    <title>5. Hexo博客NexT主题开启站内搜索</title>
+    <title>HEXO笔记1-Hexo博客NexT主题开启站内搜索</title>
     <link href="https://tanwucheng.github.io/2021/03/03/5.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/"/>
     <id>https://tanwucheng.github.io/2021/03/03/5.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/</id>
     <published>2021-03-03T08:45:44.000Z</published>
-    <updated>2021-03-03T15:51:25.165Z</updated>
+    <updated>2021-03-24T12:08:17.947Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;NexT-主题配置-Local-Search-开启站内搜索&quot;&gt;&lt;a href=&quot;#NexT-主题配置-Local-Search-开启站内搜索&quot; class=&quot;headerlink&quot; title=&quot;NexT 主题配置 Local Search 开启站内搜索&quot;&gt;&lt;/a&gt;NexT 主题配置 Local Search 开启站内搜索&lt;/h2&gt;&lt;h3 id=&quot;安装-hexo-generator-search&quot;&gt;&lt;a href=&quot;#安装-hexo-generator-search&quot; class=&quot;headerlink&quot; title=&quot;安装 hexo-generator-search&quot;&gt;&lt;/a&gt;安装 hexo-generator-search&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install hexo-generator-search --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
@@ -187,11 +186,11 @@
   </entry>
   
   <entry>
-    <title>4. Hexo博客NexT主题设置RSS订阅</title>
+    <title>HEXO笔记1-Hexo博客NexT主题设置RSS订阅</title>
     <link href="https://tanwucheng.github.io/2021/03/03/4.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AERSS%E8%AE%A2%E9%98%85/"/>
     <id>https://tanwucheng.github.io/2021/03/03/4.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AERSS%E8%AE%A2%E9%98%85/</id>
     <published>2021-03-03T02:26:25.000Z</published>
-    <updated>2021-03-03T15:51:19.434Z</updated>
+    <updated>2021-03-24T12:08:06.149Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;安装-hexo-generator-feed-插件并开启-RSS-订阅&quot;&gt;&lt;a href=&quot;#安装-hexo-generator-feed-插件并开启-RSS-订阅&quot; class=&quot;headerlink&quot; title=&quot;安装 hexo-generator-feed 插件并开启 RSS 订阅&quot;&gt;&lt;/a&gt;安装 hexo-generator-feed 插件并开启 RSS 订阅&lt;/h2&gt;&lt;h3 id=&quot;在项目根目录下安装-hexo-generator-feed&quot;&gt;&lt;a href=&quot;#在项目根目录下安装-hexo-generator-feed&quot; class=&quot;headerlink&quot; title=&quot;在项目根目录下安装 hexo-generator-feed&quot;&gt;&lt;/a&gt;在项目根目录下安装 hexo-generator-feed&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install hexo-generator-feed --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
@@ -206,11 +205,11 @@
   </entry>
   
   <entry>
-    <title>3. 使用Gulp压缩发布的文件</title>
+    <title>HEXO笔记1-使用Gulp压缩发布的文件</title>
     <link href="https://tanwucheng.github.io/2021/03/02/3.%E4%BD%BF%E7%94%A8Gulp%E5%8E%8B%E7%BC%A9%E5%8F%91%E5%B8%83%E7%9A%84%E6%96%87%E4%BB%B6/"/>
     <id>https://tanwucheng.github.io/2021/03/02/3.%E4%BD%BF%E7%94%A8Gulp%E5%8E%8B%E7%BC%A9%E5%8F%91%E5%B8%83%E7%9A%84%E6%96%87%E4%BB%B6/</id>
     <published>2021-03-02T15:30:26.000Z</published>
-    <updated>2021-03-03T15:51:14.243Z</updated>
+    <updated>2021-03-24T12:07:54.684Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;安装-Gulp-各个压缩模块并编写任务执行文件压缩&quot;&gt;&lt;a href=&quot;#安装-Gulp-各个压缩模块并编写任务执行文件压缩&quot; class=&quot;headerlink&quot; title=&quot;安装 Gulp 各个压缩模块并编写任务执行文件压缩&quot;&gt;&lt;/a&gt;安装 Gulp 各个压缩模块并编写任务执行文件压缩&lt;/h2&gt;&lt;h3 id=&quot;安装-Gulp-和各个压缩模块&quot;&gt;&lt;a href=&quot;#安装-Gulp-和各个压缩模块&quot; class=&quot;headerlink&quot; title=&quot;安装 Gulp 和各个压缩模块&quot;&gt;&lt;/a&gt;安装 Gulp 和各个压缩模块&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install gulp -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
@@ -227,11 +226,11 @@
   </entry>
   
   <entry>
-    <title>2. Hexo博客添加PWA支持</title>
+    <title>HEXO笔记2-Hexo博客添加PWA支持</title>
     <link href="https://tanwucheng.github.io/2021/03/02/2.Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0PWA%E6%94%AF%E6%8C%81/"/>
     <id>https://tanwucheng.github.io/2021/03/02/2.Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0PWA%E6%94%AF%E6%8C%81/</id>
     <published>2021-03-02T08:53:28.000Z</published>
-    <updated>2021-03-04T11:48:02.863Z</updated>
+    <updated>2021-03-24T12:07:40.473Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面&quot;&gt;&lt;a href=&quot;#此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面&quot; class=&quot;headerlink&quot; title=&quot;此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面&quot;&gt;&lt;/a&gt;此示例不借助&lt;a href=&quot;https://github.com/zoumiaojiang/hexo-service-worker&quot;&gt;hexo-service-worker&lt;/a&gt;、&lt;a href=&quot;https://github.com/JLHwung/hexo-offline&quot;&gt;hexo-offline&lt;/a&gt;和&lt;a href=&quot;https://github.com/lavas-project/hexo-pwa&quot;&gt;hexo-pwa&lt;/a&gt;等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面&lt;/h2&gt;&lt;p&gt;如果使用上述插件，可以参考&lt;a href=&quot;https://linwhitehat.github.io/Blog/2020/02/09/Hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2PWA.html&quot;&gt;此博文&lt;/a&gt;&lt;/p&gt;
@@ -254,11 +253,11 @@
   </entry>
   
   <entry>
-    <title>1. Hexo官方开箱即用教程</title>
+    <title>HEXO笔记1-Hexo官方开箱即用教程</title>
     <link href="https://tanwucheng.github.io/2021/03/01/1.Hexo%E5%AE%98%E6%96%B9%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <id>https://tanwucheng.github.io/2021/03/01/1.Hexo%E5%AE%98%E6%96%B9%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E6%95%99%E7%A8%8B/</id>
     <published>2021-03-01T06:20:18.000Z</published>
-    <updated>2021-03-03T16:02:40.171Z</updated>
+    <updated>2021-03-24T12:05:57.258Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
