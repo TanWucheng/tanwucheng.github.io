@@ -3,7 +3,7 @@
   <entry>
     <title>本站GUI客户端开发说明</title>
     <url>/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<h2 id="欢迎阅读"><a href="#欢迎阅读" class="headerlink" title="欢迎阅读"></a>欢迎阅读</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码仓库已上传到我的 Github，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文编写日期(2021-03-24)，已发布了一个安卓平台的 Alpha 测试版应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶</p>
+    <content><![CDATA[<h2 id="欢迎阅读"><a href="#欢迎阅读" class="headerlink" title="欢迎阅读"></a>欢迎阅读</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github 仓库，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文编写日期(2021-03-24)，已发布了一个安卓平台的 Alpha 测试版应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶</p>
 <ul>
 <li>  2021-03-24 安卓客户端 0.1.1-Alpha 已发布在 Github，<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.1-alpha">点此</a>前往下载，发布的 APK 只在 Android 11 &amp; MIUI 12.2.3 的机子上测试过，其他厂商的 ROM 没有条件测试，如果其他厂商机型无法安装运行或者应用程序错误崩溃闪退等发生，请反馈给笔者</li>
 </ul>
@@ -142,7 +142,7 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO笔记1-Hexo博客NexT主题一些常用客制化修改</title>
+    <title>HEXO笔记⑥-Hexo博客NexT主题一些常用客制化修改</title>
     <url>/2021/03/03/6.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%88%B6%E5%8C%96%E4%BF%AE%E6%94%B9/</url>
     <content><![CDATA[<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
 <li>  修改文章内链接文本样式、</li>
@@ -239,7 +239,7 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO笔记1-Hexo博客NexT主题开启站内搜索</title>
+    <title>HEXO笔记⑤-Hexo博客NexT主题开启站内搜索</title>
     <url>/2021/03/03/5.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/</url>
     <content><![CDATA[<h2 id="NexT-主题配置-Local-Search-开启站内搜索"><a href="#NexT-主题配置-Local-Search-开启站内搜索" class="headerlink" title="NexT 主题配置 Local Search 开启站内搜索"></a>NexT 主题配置 Local Search 开启站内搜索</h2><h3 id="安装-hexo-generator-search"><a href="#安装-hexo-generator-search" class="headerlink" title="安装 hexo-generator-search"></a>安装 hexo-generator-search</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
 
@@ -259,7 +259,7 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO笔记1-Hexo博客NexT主题设置RSS订阅</title>
+    <title>HEXO笔记④-Hexo博客NexT主题设置RSS订阅</title>
     <url>/2021/03/03/4.Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AERSS%E8%AE%A2%E9%98%85/</url>
     <content><![CDATA[<h2 id="安装-hexo-generator-feed-插件并开启-RSS-订阅"><a href="#安装-hexo-generator-feed-插件并开启-RSS-订阅" class="headerlink" title="安装 hexo-generator-feed 插件并开启 RSS 订阅"></a>安装 hexo-generator-feed 插件并开启 RSS 订阅</h2><h3 id="在项目根目录下安装-hexo-generator-feed"><a href="#在项目根目录下安装-hexo-generator-feed" class="headerlink" title="在项目根目录下安装 hexo-generator-feed"></a>在项目根目录下安装 hexo-generator-feed</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
 
@@ -285,7 +285,7 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO笔记1-使用Gulp压缩发布的文件</title>
+    <title>HEXO笔记③-使用Gulp压缩发布的文件</title>
     <url>/2021/03/02/3.%E4%BD%BF%E7%94%A8Gulp%E5%8E%8B%E7%BC%A9%E5%8F%91%E5%B8%83%E7%9A%84%E6%96%87%E4%BB%B6/</url>
     <content><![CDATA[<h2 id="安装-Gulp-各个压缩模块并编写任务执行文件压缩"><a href="#安装-Gulp-各个压缩模块并编写任务执行文件压缩" class="headerlink" title="安装 Gulp 各个压缩模块并编写任务执行文件压缩"></a>安装 Gulp 各个压缩模块并编写任务执行文件压缩</h2><h3 id="安装-Gulp-和各个压缩模块"><a href="#安装-Gulp-和各个压缩模块" class="headerlink" title="安装 Gulp 和各个压缩模块"></a>安装 Gulp 和各个压缩模块</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; npm install gulp -g</span><br><span class="line">&gt; npm install gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save</span><br></pre></td></tr></table></figure>
 
@@ -305,7 +305,7 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO笔记2-Hexo博客添加PWA支持</title>
+    <title>HEXO笔记②-Hexo博客添加PWA支持</title>
     <url>/2021/03/02/2.Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0PWA%E6%94%AF%E6%8C%81/</url>
     <content><![CDATA[<h2 id="此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面"><a href="#此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写-manifest-webmanifest-menifest-json-和-serviceWorker-js-并引入页面" class="headerlink" title="此示例不借助hexo-service-worker、hexo-offline和hexo-pwa等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面"></a>此示例不借助<a href="https://github.com/zoumiaojiang/hexo-service-worker">hexo-service-worker</a>、<a href="https://github.com/JLHwung/hexo-offline">hexo-offline</a>和<a href="https://github.com/lavas-project/hexo-pwa">hexo-pwa</a>等插件实现，自己编写 manifest.webmanifest(menifest.json)和 serviceWorker.js 并引入页面</h2><p>如果使用上述插件，可以参考<a href="https://linwhitehat.github.io/Blog/2020/02/09/Hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2PWA.html">此博文</a></p>
 <h3 id="编写-manifest-json"><a href="#编写-manifest-json" class="headerlink" title="编写 manifest.json"></a>编写 manifest.json</h3><ol>
@@ -339,7 +339,7 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO笔记1-Hexo官方开箱即用教程</title>
+    <title>HEXO笔记①-Hexo官方开箱即用教程</title>
     <url>/2021/03/01/1.Hexo%E5%AE%98%E6%96%B9%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
