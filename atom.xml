@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-03-24T14:43:59.010Z</updated>
+  <updated>2021-03-27T08:33:35.357Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -17,18 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Android使用WebView渲染HTML页面</title>
+    <link href="https://tanwucheng.github.io/2021/03/27/Android%E4%BD%BF%E7%94%A8WebView%E6%B8%B2%E6%9F%93HTML%E9%A1%B5%E9%9D%A2/"/>
+    <id>https://tanwucheng.github.io/2021/03/27/Android%E4%BD%BF%E7%94%A8WebView%E6%B8%B2%E6%9F%93HTML%E9%A1%B5%E9%9D%A2/</id>
+    <published>2021-03-27T08:15:11.000Z</published>
+    <updated>2021-03-27T08:33:35.357Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;使用-WebView-加载远程网页或者渲染本地-HTML-文件&quot;&gt;&lt;a href=&quot;#使用-WebView-加载远程网页或者渲染本地-HTML-文件&quot; class=&quot;headerlink&quot; title=&quot;使用 WebView 加载远程网页或者渲染本地 HTML</summary>
+        
+      
+    
+    
+    
+    <category term=".NET For Android" scheme="https://tanwucheng.github.io/categories/NET-For-Android/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>本站GUI客户端开发说明</title>
     <link href="https://tanwucheng.github.io/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/"/>
     <id>https://tanwucheng.github.io/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/</id>
     <published>2021-03-24T12:10:33.000Z</published>
-    <updated>2021-03-24T14:43:59.010Z</updated>
+    <updated>2021-03-27T09:01:01.562Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;欢迎阅读&quot;&gt;&lt;a href=&quot;#欢迎阅读&quot; class=&quot;headerlink&quot; title=&quot;欢迎阅读&quot;&gt;&lt;/a&gt;欢迎阅读&lt;/h2&gt;&lt;p&gt;出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github</summary>
+    <summary type="html">&lt;h2 id=&quot;欢迎🤝&quot;&gt;&lt;a href=&quot;#欢迎🤝&quot; class=&quot;headerlink&quot; title=&quot;欢迎🤝&quot;&gt;&lt;/a&gt;欢迎🤝&lt;/h2&gt;&lt;p&gt;出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github</summary>
         
       
     

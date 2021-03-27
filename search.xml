@@ -3,13 +3,34 @@
   <entry>
     <title>本站GUI客户端开发说明</title>
     <url>/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<h2 id="欢迎阅读"><a href="#欢迎阅读" class="headerlink" title="欢迎阅读"></a>欢迎阅读</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github 仓库，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文编写日期(2021-03-24)，已发布了一个安卓平台的 Alpha 测试版应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶</p>
+    <content><![CDATA[<h2 id="欢迎🤝"><a href="#欢迎🤝" class="headerlink" title="欢迎🤝"></a>欢迎🤝</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github 仓库，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文编写日期(2021-03-24)，已发布了一个安卓平台的 Alpha 测试版应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶</p>
 <ul>
-<li>  2021-03-24 安卓客户端 0.1.1-Alpha 已发布在 Github，<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.1-alpha">点此</a>前往下载，发布的 APK 只在 Android 11 &amp; MIUI 12.2.3 的机子上测试过，其他厂商的 ROM 没有条件测试，如果其他厂商机型无法安装运行或者应用程序错误崩溃闪退等发生，请反馈给笔者</li>
+<li><p>  2021-03-24 安卓客户端 0.1.1-Alpha 已发布在 Github，<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.2-alpha">点此</a>前往下载，发布的 APK 只在 Android 11 &amp; MIUI 12.2.3 的机子上测试过，其他厂商的 ROM 没有条件测试，如果其他厂商机型无法安装运行或者应用程序错误崩溃闪退等发生，请反馈给笔者</p>
+</li>
+<li><p>  2021-03-27 安卓客户端 0.1.2-Alpha 已发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.2-alpha">Github Release</a>，同时上一个发行版的 APK 已被删除，此版本修复了一些错误，重构了一些代码，更改了 Apk 包名称，需用需要需要重新安装</p>
+</li>
 </ul>
 ]]></content>
       <categories>
         <category>Statement</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Android使用WebView渲染HTML页面</title>
+    <url>/2021/03/27/Android%E4%BD%BF%E7%94%A8WebView%E6%B8%B2%E6%9F%93HTML%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<h2 id="使用-WebView-加载远程网页或者渲染本地-HTML-文件"><a href="#使用-WebView-加载远程网页或者渲染本地-HTML-文件" class="headerlink" title="使用 WebView 加载远程网页或者渲染本地 HTML 文件"></a>使用 WebView 加载远程网页或者渲染本地 HTML 文件</h2><p>笔者开发的本站安卓客户端使用 WebView 浏览博客文章详情，最开始尝试系统默认 WebView，在加载博文 HTML 页面时频繁发生崩溃闪退，网上搜集解决方法，发现使用腾讯 X5 内核 WebView 替代系统 WebView 的解决方式，以下是一些参考资料</p>
+<ul>
+<li>  <a href="https://developer.android.google.cn/guide/webapps/webview?hl=zh-cn">在 WebView 中编译 Web 应用</a></li>
+<li>  <a href="https://docs.microsoft.com/zh-cn/xamarin/android/user-interface/controls/web-view">Xamarin Android Web 视图</a></li>
+<li>  <a href="https://x5.tencent.com/docs/webview.html">腾讯 X5 内核 WebView API 文档</a></li>
+<li>  <a href="https://github.com/jingliancui/XamarinFormsTencentX5Sample">Xamarin.Forms Android 使用腾讯 X5 内核 WebView</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>.NET For Android</category>
       </categories>
       <tags>
         <tag>笔记</tag>
