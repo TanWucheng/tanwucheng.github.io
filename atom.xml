@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-03-27T08:33:35.357Z</updated>
+  <updated>2021-04-10T07:03:36.994Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>获取GitHub代码仓库最新Release信息</title>
+    <link href="https://tanwucheng.github.io/2021/04/10/%E8%8E%B7%E5%8F%96GitHub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E6%9C%80%E6%96%B0Release%E4%BF%A1%E6%81%AF/"/>
+    <id>https://tanwucheng.github.io/2021/04/10/%E8%8E%B7%E5%8F%96GitHub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E6%9C%80%E6%96%B0Release%E4%BF%A1%E6%81%AF/</id>
+    <published>2021-04-10T06:16:47.000Z</published>
+    <updated>2021-04-10T07:03:36.994Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;请求-GitHub-REST-API，获取指定代码仓库的最新软件包发布信息&quot;&gt;&lt;a href=&quot;#请求-GitHub-REST-API，获取指定代码仓库的最新软件包发布信息&quot; class=&quot;headerlink&quot; title=&quot;请求 GitHub REST</summary>
+        
+      
+    
+    
+    
+    <category term="Github" scheme="https://tanwucheng.github.io/categories/Github/"/>
+    
+    
+    <category term="笔记" scheme="https://tanwucheng.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Android使用WebView渲染HTML页面</title>
