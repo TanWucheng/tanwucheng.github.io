@@ -6,7 +6,7 @@
   <link href="https://tanwucheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanwucheng.github.io/"/>
-  <updated>2021-04-10T07:10:02.365Z</updated>
+  <updated>2021-04-10T07:18:33.325Z</updated>
   <id>https://tanwucheng.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://tanwucheng.github.io/2021/04/10/%E8%8E%B7%E5%8F%96GitHub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E6%9C%80%E6%96%B0Release%E4%BF%A1%E6%81%AF/"/>
     <id>https://tanwucheng.github.io/2021/04/10/%E8%8E%B7%E5%8F%96GitHub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E6%9C%80%E6%96%B0Release%E4%BF%A1%E6%81%AF/</id>
     <published>2021-04-10T06:16:47.000Z</published>
-    <updated>2021-04-10T07:10:02.365Z</updated>
+    <updated>2021-04-10T07:18:33.325Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;请求-GitHub-REST-API，获取指定代码仓库的最新软件包发布信息&quot;&gt;&lt;a href=&quot;#请求-GitHub-REST-API，获取指定代码仓库的最新软件包发布信息&quot; class=&quot;headerlink&quot; title=&quot;请求 GitHub REST API，获取指定代码仓库的最新软件包发布信息&quot;&gt;&lt;/a&gt;请求 GitHub REST API，获取指定代码仓库的最新软件包发布信息&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;  &lt;a href=&quot;https://docs.github.com/en/rest/reference/repos&quot;&gt;GitHub Repositories REST API&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;  &lt;a href=&quot;https://docs.github.com/en/rest/reference/repos#releases&quot;&gt;GitHub Repositories Release REST API&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;下面以 Microsoft Powershell 为例，Powershell 终端的仓库地址为&lt;a href=&quot;https://github.com/PowerShell/PowerShell&quot;&gt;https://github.com/PowerShell/PowerShell&lt;/a&gt;，根据 GitHub REST API 文档，获取最新发布版本信息的 URL 格式为&lt;a href=&quot;https://docs.github.com/en/rest/reference/repos#releases&quot;&gt;https://api.github.com//{repos}/{owner}/repo/releases/latest&lt;/a&gt;，则 Powershell 最新发布版本信息的 URL 是&lt;a href=&quot;https://api.github.com/repos/PowerShell/PowerShell/releases/latest&quot;&gt;https://api.github.com/repos/PowerShell/PowerShell/releases/latest&lt;/a&gt;，请求此网址会返回如下 JSON 信息(有删减)&lt;/p&gt;</summary>
+&lt;p&gt;下面以 Microsoft Powershell 为例，Powershell 终端的仓库地址为&lt;a href=&quot;https://github.com/PowerShell/PowerShell&quot;&gt;https://github.com/PowerShell/PowerShell&lt;/a&gt;，根据 GitHub REST API 文档，获取最新发布版本信息的 URL 格式为&lt;a href=&quot;https://docs.github.com/en/rest/reference/repos#releases&quot;&gt;https://api.github.com/repos/拥有者/代码仓库/releases/latest&lt;/a&gt;，则 Powershell 最新发布版本信息的 URL 是&lt;a href=&quot;https://api.github.com/repos/PowerShell/PowerShell/releases/latest&quot;&gt;https://api.github.com/repos/PowerShell/PowerShell/releases/latest&lt;/a&gt;，请求此网址会返回如下 JSON 信息(有删减)&lt;/p&gt;</summary>
     
     
     
