@@ -3,13 +3,18 @@
   <entry>
     <title>本站GUI客户端开发说明</title>
     <url>/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<h2 id="欢迎-🤝"><a href="#欢迎-🤝" class="headerlink" title="欢迎 🤝"></a>欢迎 🤝</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github 仓库，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文编写日期(2021-03-24)，已发布了一个安卓平台的 Alpha 测试版应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶</p>
+    <content><![CDATA[<h2 id="欢迎-🤝"><a href="#欢迎-🤝" class="headerlink" title="欢迎 🤝"></a>欢迎 🤝</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github 仓库，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文编写日期(2021-03-24)，已发布了一个安卓平台的 Alpha 测试版应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶。</p>
+<p>现在发布的软件安装会贴上文件的 SHA256 散列值，用于校验软件，下载下来记得校验安装包文件的 SHA256 散列值，用于校验文件的原子性和完整性，下面示例使用 OPENSSL 命令获取文件 SHA256 散列值，此外还有多种工具和方式获取文件的 SHA256 散列值请自行搜索。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; openssl dgst -sha256 TenBlogDroidApp-0.2.2-Alpha.apk</span><br></pre></td></tr></table></figure>
+
 <ul>
 <li><p>  2021-03-24 安卓客户端 0.1.1-Alpha 已发布在 Github，<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.2-alpha">点此</a>前往下载，发布的 APK 只在 Android 11 &amp; MIUI 12.2.3 的机子上测试过，其他厂商的 ROM 没有条件测试，如果其他厂商机型无法安装运行或者应用程序错误崩溃闪退等发生，请反馈给笔者</p>
 </li>
 <li><p>  2021-03-27 安卓客户端 0.1.2-Alpha 已发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.2-alpha">Github Release</a>，同时上一个发行版的 APK 已被删除，此版本修复了一些错误，重构了一些代码，更改了 Apk 包名称，需用需要需要重新安装</p>
 </li>
 <li><p>  2021-04-11 安卓客户端 0.2.1-Alpha 已发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.2.1-alpha">Github Release</a>，同时上一个发行版的 APK 已被删除，此版本修复了一些错误，重构了一些代码，新增了一些功能</p>
+</li>
+<li><p>  2021-04-11 安卓客户端 0.2.3-Alpha 已发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.2.2-alpha">Github Release</a>，同时上一个发行版的 APK 已被删除，此版本完善了一些显示内容</p>
 </li>
 </ul>
 ]]></content>
