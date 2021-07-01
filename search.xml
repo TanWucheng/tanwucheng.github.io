@@ -30,6 +30,67 @@
       </tags>
   </entry>
   <entry>
+    <title>客户端下载</title>
+    <url>/2021/07/01/%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8B%E8%BD%BD/</url>
+    <content><![CDATA[<h2 id="Ten-Blog-客户端下载"><a href="#Ten-Blog-客户端下载" class="headerlink" title="Ten Blog 客户端下载"></a>Ten Blog 客户端下载</h2><p>下载 App，在各操作系统平台上浏览博客网站。</p>
+<table>
+<thead>
+<tr>
+<th>平台</th>
+<th align="left">下载地址</th>
+<th align="left">SHA256</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>安卓 APK</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogDroidApp-0.2.2.apk">TenBlogDroidApp-0.2.2.apk</a></td>
+<td align="left">E2F47A56288B703477E871B47148EF56D0BCC93E1DBB9FA8052FADAFB9A8368B</td>
+</tr>
+<tr>
+<td>Windows WPF x64</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-win-x64.zip">TenBlogWpfApp-win-x64.zip</a></td>
+<td align="left">48E2407E6BF03099814A8A20DB3D6C0026B0C0890151C2B98EE54826E32FAAAB</td>
+</tr>
+<tr>
+<td>Windows WPF x86</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-win-x86.zip">TenBlogWpfApp-win-x86.zip</a></td>
+<td align="left">F33347B36AEFBE7F2D8AE933FC326EDB9396EF025BA4DEECF5EF69C15711EBF8</td>
+</tr>
+<tr>
+<td>Windows UWP</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogUwpApp-0.2.2.zip">TenBlogUwpApp-0.2.2.zip</a></td>
+<td align="left">8446F1C90A47A867A6428DFC50A8B85169EF1128E22F8E7F85A46ADC549966B0</td>
+</tr>
+<tr>
+<td>Linux DEB</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp_1.0.2_amd64.deb">TenBlogElectronApp_1.0.2_amd64.deb</a></td>
+<td align="left">DDE5688DEC69FE8ED9C463AAE981E79CBFB9EECD88D349061F000172192E8245</td>
+</tr>
+<tr>
+<td>Linux RPM</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2.x86_64.rpm">TenBlogElectronApp-1.0.2.x86_64.rpm</a></td>
+<td align="left">C4D60839E8A7FCFC794917CFA0B69D7DD2B7ADE2D0E19AC74B7B3CE1D1760CAA</td>
+</tr>
+<tr>
+<td>Linux AppImage</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2_x86_64.AppImage">TenBlogElectronApp-1.0.2_x86_64.AppImage</a></td>
+<td align="left">C4D60839E8A7FCFC794917CFA0B69D7DD2B7ADE2D0E19AC74B7B3CE1D1760CAA</td>
+</tr>
+<tr>
+<td>Raspberry Pi AppImage</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-armv7l.AppImage">TenBlogElectronApp-1.0.2-armv7l.AppImage</a></td>
+<td align="left">C4D60839E8A7FCFC794917CFA0B69D7DD2B7ADE2D0E19AC74B7B3CE1D1760CAA</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Statement</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>获取GitHub代码仓库最新Release信息</title>
     <url>/2021/04/10/%E8%8E%B7%E5%8F%96GitHub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E6%9C%80%E6%96%B0Release%E4%BF%A1%E6%81%AF/</url>
     <content><![CDATA[<h2 id="请求-GitHub-REST-API，获取指定代码仓库的最新软件包发布信息"><a href="#请求-GitHub-REST-API，获取指定代码仓库的最新软件包发布信息" class="headerlink" title="请求 GitHub REST API，获取指定代码仓库的最新软件包发布信息"></a>请求 GitHub REST API，获取指定代码仓库的最新软件包发布信息</h2><ul>
