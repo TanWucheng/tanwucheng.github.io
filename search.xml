@@ -42,26 +42,6 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>安卓 APK</td>
-<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogDroidApp-0.2.2.apk">TenBlogDroidApp-0.2.2.apk</a></td>
-<td align="left">E2F47A56288B703477E871B47148EF56D0BCC93E1DBB9FA8052FADAFB9A8368B</td>
-</tr>
-<tr>
-<td>Windows WPF x64</td>
-<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-win-x64.zip">TenBlogWpfApp-win-x64.zip</a></td>
-<td align="left">48E2407E6BF03099814A8A20DB3D6C0026B0C0890151C2B98EE54826E32FAAAB</td>
-</tr>
-<tr>
-<td>Windows WPF x86</td>
-<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-win-x86.zip">TenBlogWpfApp-win-x86.zip</a></td>
-<td align="left">F33347B36AEFBE7F2D8AE933FC326EDB9396EF025BA4DEECF5EF69C15711EBF8</td>
-</tr>
-<tr>
-<td>Windows UWP</td>
-<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogUwpApp-0.2.2.zip">TenBlogUwpApp-0.2.2.zip</a></td>
-<td align="left">8446F1C90A47A867A6428DFC50A8B85169EF1128E22F8E7F85A46ADC549966B0</td>
-</tr>
-<tr>
 <td>Linux DEB</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp_1.0.2_amd64.deb">TenBlogElectronApp_1.0.2_amd64.deb</a></td>
 <td align="left">DDE5688DEC69FE8ED9C463AAE981E79CBFB9EECD88D349061F000172192E8245</td>
@@ -74,12 +54,47 @@
 <tr>
 <td>Linux AppImage</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2_x86_64.AppImage">TenBlogElectronApp-1.0.2_x86_64.AppImage</a></td>
-<td align="left">C4D60839E8A7FCFC794917CFA0B69D7DD2B7ADE2D0E19AC74B7B3CE1D1760CAA</td>
+<td align="left">4921435E519C7168D113DFF921B4137607823F824C3D0911B6356DB48FCFB275</td>
 </tr>
 <tr>
 <td>Raspberry Pi AppImage</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-armv7l.AppImage">TenBlogElectronApp-1.0.2-armv7l.AppImage</a></td>
-<td align="left">C4D60839E8A7FCFC794917CFA0B69D7DD2B7ADE2D0E19AC74B7B3CE1D1760CAA</td>
+<td align="left">481BA5908C6028B4CF27012B5A1BEED59120AD92BA227327D49DCE5F5BAD47BF</td>
+</tr>
+<tr>
+<td>Mac Zip</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-mac.zip">TenBlogElectronApp-1.0.2-mac.zip</a></td>
+<td align="left">B3E2A007F16E9572BA7FE63052D790EAEBE07547E376218CFEC4244C4F1A86AC</td>
+</tr>
+<tr>
+<td>Mac DMG</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2.dmg">TenBlogElectronApp-1.0.2.dmg</a></td>
+<td align="left">89868FD84045A1BADEF8CC32B4F75D1281687F4665F740F56F0EDC7DE55C6153</td>
+</tr>
+<tr>
+<td>Windows Setup</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-Setup.exe">TenBlogElectronApp_Setup-1.0.2.exe</a></td>
+<td align="left">9982272C04BD4321CA6A7315F9F3E2B9D9AE45CB589699E5953FB6AD74F84FA7</td>
+</tr>
+<tr>
+<td>Windows UWP</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogUwpApp-1.0.2.7z">TenBlogUwpApp_1.0.2.0.7z</a></td>
+<td align="left">7F5FE4914696816E88C51751D1CDA15D94D51B87D8D4B6AD865BAC325F636E36</td>
+</tr>
+<tr>
+<td>Windows WPF x64</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-1.0.2-win-x64.7z">TenBlogWpfApp-1.0.2-win-x64.7z</a></td>
+<td align="left">11B9F34E7569ACCE7526AF43033364386C8F8C48BBDDA985F9EC2FC3B7EB04FC</td>
+</tr>
+<tr>
+<td>Windows WPF x86</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-1.0.2-win-x86.7z">TenBlogWpfApp-1.0.2-win-x86.7z</a></td>
+<td align="left">69B1FD64DE25F1ECB5E071E867F6608888C7811763D76AFECCA479482979797A</td>
+</tr>
+<tr>
+<td>Android APK</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogDroidApp-1.0.2.apk">TenBlogDroidApp-1.0.2.apk</a></td>
+<td align="left">0D509D2FE74BF9CE82C66C283907628B45C8AC2EEA980E927BF4588DF9777FED</td>
 </tr>
 </tbody></table>
 ]]></content>
