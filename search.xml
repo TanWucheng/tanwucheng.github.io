@@ -3,23 +3,14 @@
   <entry>
     <title>本站GUI客户端开发说明</title>
     <url>/2021/03/24/%E6%9C%AC%E7%AB%99GUI%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<h2 id="欢迎-🤝"><a href="#欢迎-🤝" class="headerlink" title="欢迎 🤝"></a>欢迎 🤝</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github 仓库，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文编写日期(2021-03-24)，已发布了一个安卓平台的 Alpha 测试版应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶。</p>
+    <content><![CDATA[<h2 id="欢迎-🤝"><a href="#欢迎-🤝" class="headerlink" title="欢迎 🤝"></a>欢迎 🤝</h2><p>出于兴趣和学习，笔者计划针对本站开发几个主流操作系统平台的博客阅读客户端应用程序，源代码已上传到我的 Github 仓库，<a href="https://github.com/TanWucheng/TenBlogClients">点此</a>即可前往查看，欢迎向笔者指出不足之处和提出改进建议的 <a href="https://github.com/TanWucheng/TenBlogClients/issues">Issues</a>，截止本文最新更新日期(2021-06-29)，初步版本的Android、WPF、UWP、Electron应用程序，开发进度说明请阅读下文，后续随开发进度会持续更新本文，本站也将本文暂时置顶。</p>
 <span id="more"></span>
 
-<p>现在发布的软件安装会贴上文件的 SHA256 散列值，用于校验软件，下载下来记得校验安装包文件的 SHA256 散列值，用于校验文件的原子性和完整性，下面示例使用 OPENSSL 命令获取文件 SHA256 散列值，此外还有多种工具和方式获取文件的 SHA256 散列值请自行搜索。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; openssl dgst -sha256 TenBlogDroidApp-0.2.2-Alpha.apk</span><br></pre></td></tr></table></figure>
+<p>现在发布的软件安装会贴上文件的 SHA256 散列值，用于校验软件，下载下来记得校验安装包文件的 SHA256 散列值，用于校验文件的原子性和完整性，下面示例使用 OPENSSL 命令获取文件 SHA256 散列值，此外还有多种工具和方式获取文件的 SHA256 散列值，请自行搜索。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; openssl dgst -sha256 TenBlogDroidApp-1.0.2.apk</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li><p>  2021-03-24 安卓客户端 0.1.1-Alpha 已发布在 Github，<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.2-alpha">点此</a>前往下载，发布的 APK 只在 Android 11 &amp; MIUI 12.2.3 的机子上测试过，其他厂商的 ROM 没有条件测试，如果其他厂商机型无法安装运行或者应用程序错误崩溃闪退等发生，请反馈给笔者</p>
-</li>
-<li><p>  2021-03-27 安卓客户端 0.1.2-Alpha 已发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.1.2-alpha">Github Release</a>，同时上一个发行版的 APK 已被删除，此版本修复了一些错误，重构了一些代码，更改了 Apk 包名称，请卸载之前的版本，然后重新安装</p>
-</li>
-<li><p>  2021-04-11 安卓客户端 0.2.1-Alpha 已发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.2.1-alpha">Github Release</a>，同时上一个发行版的 APK 已被删除，此版本修复了一些错误，重构了一些代码，新增了一些功能</p>
-</li>
-<li><p>  2021-04-11 安卓客户端 0.2.3-Alpha 已发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.2.2-alpha">Github Release</a>，同时上一个发行版的 APK 已被删除，此版本完善了一些显示内容</p>
-</li>
-<li><p>  2021-06-29 补上之前已经发布但忘记更新声明的 WPF、UWP 和 Electron 客户端，程序文件依然发布在<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.2.2-alpha">Github Release</a>，其中安卓客户端源代码已经迁移到我的<a href="https://gitee.com/tanwucheng/DotNetForAndroidRepo">Gitee DotNetForAndroidRepo</a>仓库，WPF 和 UWP 客户端源代码暂时保存在我的<a href="https://github.com/TanWucheng/TenBlogClients">GitHub TenBlogClients</a>仓库，Electron 客户端源代码存放在我的另外一个<a href="https://gitee.com/tanwucheng/ten-blog-electron-app">Gitee TenBlogElectronApp</a>仓库，这三个客户端都有特定的运行环境要求，详情请查看我的<a href="https://github.com/TanWucheng/TenBlogClients/releases/tag/0.2.2-alpha">Github 发布日志</a></p>
-</li>
+<li>  2021-06-29 现阶段已开发Android、WPF、UWP 和 Electron 客户端，<a href="https://tanwucheng.github.io/2021/07/01/%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8B%E8%BD%BD/">点此🔗</a>前往下载页面，其中安卓客户端源代码已经迁移到我的<a href="https://gitee.com/tanwucheng/DotNetForAndroidRepo">Gitee DotNetForAndroidRepo</a>仓库，WPF 和 UWP 客户端源代码暂时保存在我的<a href="https://github.com/TanWucheng/TenBlogClients">GitHub TenBlogClients</a>仓库，Electron 客户端源代码存放在我的另外一个<a href="https://gitee.com/tanwucheng/ten-blog-electron-client.git">Gitee TenBlogElectronApp</a>仓库，客户端运行环境要求、功能更新、已知待改进问题等详情请查看我的<a href="https://github.com/TanWucheng/TenBlogClients/releases/latest">Github 发布日志</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -32,67 +23,67 @@
   <entry>
     <title>客户端下载</title>
     <url>/2021/07/01/%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%B8%8B%E8%BD%BD/</url>
-    <content><![CDATA[<h2 id="Ten-Blog-客户端下载"><a href="#Ten-Blog-客户端下载" class="headerlink" title="Ten Blog 客户端下载"></a>Ten Blog 客户端下载</h2><p>下载 App，在各操作系统平台上浏览博客网站。</p>
+    <content><![CDATA[<h2 id="Ten-Blog-客户端下载"><a href="#Ten-Blog-客户端下载" class="headerlink" title="Ten Blog 客户端下载"></a>Ten Blog 客户端下载</h2><p>下载 App，在各操作系统平台上浏览此博客网站。</p>
 <table>
 <thead>
 <tr>
-<th>平台</th>
+<th align="left">平台</th>
 <th align="left">下载地址</th>
 <th align="left">SHA256</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>Linux DEB</td>
-<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp_1.0.2_amd64.deb">TenBlogElectronApp_1.0.2_amd64.deb</a></td>
+<td align="left">Linux DEB</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-amd64.deb">TenBlogElectronApp-1.0.2-amd64.deb</a></td>
 <td align="left">DDE5688DEC69FE8ED9C463AAE981E79CBFB9EECD88D349061F000172192E8245</td>
 </tr>
 <tr>
-<td>Linux RPM</td>
+<td align="left">Linux RPM</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2.x86_64.rpm">TenBlogElectronApp-1.0.2.x86_64.rpm</a></td>
 <td align="left">C4D60839E8A7FCFC794917CFA0B69D7DD2B7ADE2D0E19AC74B7B3CE1D1760CAA</td>
 </tr>
 <tr>
-<td>Linux AppImage</td>
+<td align="left">Linux AppImage</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2_x86_64.AppImage">TenBlogElectronApp-1.0.2_x86_64.AppImage</a></td>
 <td align="left">4921435E519C7168D113DFF921B4137607823F824C3D0911B6356DB48FCFB275</td>
 </tr>
 <tr>
-<td>Raspberry Pi AppImage</td>
+<td align="left">Raspberry Pi AppImage</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-armv7l.AppImage">TenBlogElectronApp-1.0.2-armv7l.AppImage</a></td>
 <td align="left">481BA5908C6028B4CF27012B5A1BEED59120AD92BA227327D49DCE5F5BAD47BF</td>
 </tr>
 <tr>
-<td>Mac Zip</td>
+<td align="left">Mac Zip</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-mac.zip">TenBlogElectronApp-1.0.2-mac.zip</a></td>
 <td align="left">B3E2A007F16E9572BA7FE63052D790EAEBE07547E376218CFEC4244C4F1A86AC</td>
 </tr>
 <tr>
-<td>Mac DMG</td>
+<td align="left">Mac DMG</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2.dmg">TenBlogElectronApp-1.0.2.dmg</a></td>
 <td align="left">89868FD84045A1BADEF8CC32B4F75D1281687F4665F740F56F0EDC7DE55C6153</td>
 </tr>
 <tr>
-<td>Windows Setup</td>
-<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-Setup.exe">TenBlogElectronApp_Setup-1.0.2.exe</a></td>
+<td align="left">Windows Setup</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogElectronApp-1.0.2-Setup.exe">TenBlogElectronApp-1.0.2-Setup.exe</a></td>
 <td align="left">9982272C04BD4321CA6A7315F9F3E2B9D9AE45CB589699E5953FB6AD74F84FA7</td>
 </tr>
 <tr>
-<td>Windows UWP</td>
-<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogUwpApp-1.0.2.7z">TenBlogUwpApp_1.0.2.0.7z</a></td>
+<td align="left">Windows UWP</td>
+<td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogUwpApp-1.0.2.7z">TenBlogUwpApp-1.0.2.7z</a></td>
 <td align="left">7F5FE4914696816E88C51751D1CDA15D94D51B87D8D4B6AD865BAC325F636E36</td>
 </tr>
 <tr>
-<td>Windows WPF x64</td>
+<td align="left">Windows WPF x64</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-1.0.2-win-x64.7z">TenBlogWpfApp-1.0.2-win-x64.7z</a></td>
 <td align="left">11B9F34E7569ACCE7526AF43033364386C8F8C48BBDDA985F9EC2FC3B7EB04FC</td>
 </tr>
 <tr>
-<td>Windows WPF x86</td>
+<td align="left">Windows WPF x86</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogWpfApp-1.0.2-win-x86.7z">TenBlogWpfApp-1.0.2-win-x86.7z</a></td>
 <td align="left">69B1FD64DE25F1ECB5E071E867F6608888C7811763D76AFECCA479482979797A</td>
 </tr>
 <tr>
-<td>Android APK</td>
+<td align="left">Android APK</td>
 <td align="left"><a href="https://github.com/TanWucheng/TenBlogClients/releases/download/1.0.2/TenBlogDroidApp-1.0.2.apk">TenBlogDroidApp-1.0.2.apk</a></td>
 <td align="left">0D509D2FE74BF9CE82C66C283907628B45C8AC2EEA980E927BF4588DF9777FED</td>
 </tr>
